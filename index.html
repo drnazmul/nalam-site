@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dr. Nazmul Alam | LC-MS Expert | Green Analytical Chemistry</title>
+<meta name="description" content="Dr. Nazmul Alam - LC-MS/MS Expert, Green Analytical Chemistry. Helping chemists bridge academia and industry through practical insights and real experience.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#FAF7F2;
+  --bg2:#F3EDE4;
+  --text:#1A1A1A;
+  --text2:#4A4540;
+  --muted:#8C8478;
+  --accent:#D4632A;
+  --accent2:#B8520F;
+  --warm:#E8985A;
+  --gold:#C69B3C;
+  --sage:#6B8F71;
+  --card:#FFFFFF;
+  --border:rgba(0,0,0,0.07);
+  --shadow:0 2px 20px rgba(0,0,0,0.04);
+}
+html{scroll-behavior:smooth;font-size:16px}
+body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);overflow-x:hidden;line-height:1.65}
+.container{max-width:700px;margin:0 auto;padding:0 24px}
+nav{padding:22px 0;display:flex;justify-content:space-between;align-items:center}
+.nav-name{font-family:'Playfair Display',serif;font-size:1.05rem;font-weight:700;color:var(--text);text-decoration:none}
+.nav-links{display:flex;gap:22px;align-items:center}
+.nav-links a{color:var(--muted);text-decoration:none;font-size:0.84rem;font-weight:500;transition:color 0.2s}
+.nav-links a:hover{color:var(--accent)}
+.nav-links a.btn-nav{color:#fff;background:var(--accent);padding:9px 20px;border-radius:8px;font-weight:600;transition:background 0.2s}
+.nav-links a.btn-nav:hover{background:var(--accent2)}
+.hero{padding:70px 0 50px;text-align:center}
+.avatar{width:120px;height:120px;border-radius:50%;margin:0 auto 26px;background:linear-gradient(135deg,var(--accent),var(--warm));display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:2.6rem;font-weight:700;color:#fff;box-shadow:0 8px 40px rgba(212,99,42,0.15)}
+.hero h1{font-family:'Playfair Display',serif;font-size:clamp(2rem,4.5vw,2.9rem);font-weight:800;line-height:1.18;margin-bottom:6px;color:var(--text);letter-spacing:-0.01em}
+.hero .subtitle{color:var(--accent);font-size:0.95rem;font-weight:600;margin-bottom:20px;letter-spacing:0.02em}
+.hero p{color:var(--text2);font-size:1.02rem;max-width:550px;margin:0 auto 32px;line-height:1.75}
+.socials{display:flex;justify-content:center;gap:12px}
+.socials a{width:42px;height:42px;border-radius:10px;background:var(--card);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;text-decoration:none;transition:border-color 0.3s,transform 0.2s;box-shadow:var(--shadow)}
+.socials a:hover{border-color:var(--accent);transform:translateY(-2px)}
+.socials a svg{width:17px;height:17px;fill:var(--muted);transition:fill 0.3s}
+.socials a:hover svg{fill:var(--accent)}
+.creds{padding:40px 0 10px;display:grid;grid-template-columns:repeat(4,1fr);gap:12px;text-align:center}
+.cred-item{padding:22px 10px;border-radius:14px;background:var(--card);border:1px solid var(--border);box-shadow:var(--shadow)}
+.cred-item .num{font-family:'Playfair Display',serif;font-size:1.6rem;font-weight:700;color:var(--accent)}
+.cred-item .lbl{font-size:0.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:0.07em;margin-top:4px}
+.divider{border:none;height:1px;background:var(--border);margin:30px 0}
+.expertise{padding:30px 0;text-align:center}
+.pills{display:flex;flex-wrap:wrap;justify-content:center;gap:9px}
+.pill{padding:9px 18px;border-radius:100px;background:var(--card);border:1px solid var(--border);font-size:0.82rem;font-weight:500;color:var(--text2);transition:all 0.2s;box-shadow:var(--shadow)}
+.pill:hover{border-color:var(--accent);color:var(--accent)}
+.pill-accent{border-color:rgba(212,99,42,0.3);color:var(--accent);background:rgba(212,99,42,0.04)}
+.what{padding:50px 0}
+.section-tag{font-size:0.7rem;text-transform:uppercase;letter-spacing:0.14em;color:var(--accent);font-weight:600;margin-bottom:12px}
+.what h2{font-family:'Playfair Display',serif;font-size:1.65rem;font-weight:700;margin-bottom:30px;color:var(--text)}
+.what-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.what-card{padding:26px 22px;border-radius:14px;background:var(--card);border:1px solid var(--border);box-shadow:var(--shadow);transition:border-color 0.3s,transform 0.3s}
+.what-card:hover{border-color:rgba(212,99,42,0.25);transform:translateY(-2px)}
+.what-card .icon{font-size:1.5rem;margin-bottom:10px}
+.what-card h3{font-size:0.93rem;font-weight:600;margin-bottom:5px;color:var(--text)}
+.what-card p{font-size:0.82rem;color:var(--muted);line-height:1.65}
+.resource{padding:50px 0}
+.resource-box{border-radius:18px;background:linear-gradient(135deg,#FFF8F0,#FFF3E8);border:1px solid rgba(212,99,42,0.12);padding:46px 38px;text-align:center;position:relative;overflow:hidden}
+.resource-badge{display:inline-block;padding:6px 16px;border-radius:100px;background:rgba(212,99,42,0.08);border:1px solid rgba(212,99,42,0.2);color:var(--accent);font-size:0.72rem;font-weight:600;text-transform:uppercase;letter-spacing:0.07em;margin-bottom:18px}
+.resource-box h2{font-family:'Playfair Display',serif;font-size:1.5rem;font-weight:700;margin-bottom:10px;color:var(--text)}
+.resource-box>p{color:var(--text2);font-size:0.9rem;margin-bottom:26px;max-width:480px;margin-left:auto;margin-right:auto}
+.resource-features{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-bottom:28px}
+.rf{padding:6px 14px;border-radius:8px;background:rgba(212,99,42,0.05);border:1px solid rgba(212,99,42,0.1);font-size:0.76rem;color:var(--text2)}
+.kit-form-area{max-width:440px;margin:0 auto}
+.kit-form-area form{display:flex;gap:10px}
+.kit-form-area input[type="email"]{flex:1;padding:14px 16px;border-radius:10px;border:1px solid var(--border);background:#fff;color:var(--text);font-size:0.93rem;font-family:'DM Sans',sans-serif;outline:none;transition:border 0.3s}
+.kit-form-area input[type="email"]:focus{border-color:var(--accent)}
+.kit-form-area input[type="email"]::placeholder{color:var(--muted)}
+.kit-form-area button{padding:14px 24px;border-radius:10px;border:none;background:var(--accent);color:#fff;font-weight:700;font-size:0.88rem;cursor:pointer;transition:transform 0.2s,background 0.2s;white-space:nowrap;font-family:'DM Sans',sans-serif}
+.kit-form-area button:hover{transform:translateY(-2px);background:var(--accent2)}
+.form-note{font-size:0.73rem;color:var(--muted);margin-top:12px;text-align:center}
+.timeline{padding:50px 0}
+.timeline h2{font-family:'Playfair Display',serif;font-size:1.65rem;font-weight:700;margin-bottom:28px;color:var(--text)}
+.tl-item{display:flex;gap:18px;padding:20px 0;border-bottom:1px solid var(--border)}
+.tl-item:last-child{border-bottom:none}
+.tl-dot{flex-shrink:0;width:10px;height:10px;border-radius:50%;background:var(--accent);margin-top:7px}
+.tl-dot.sage{background:var(--sage)}
+.tl-dot.gold{background:var(--gold)}
+.tl-dot.warm{background:var(--warm)}
+.tl-content h3{font-size:0.92rem;font-weight:600;color:var(--text)}
+.tl-content .org{color:var(--accent);font-size:0.82rem;font-weight:500}
+.tl-content p{color:var(--muted);font-size:0.82rem;margin-top:4px;line-height:1.6}
+footer{padding:40px 0;text-align:center;border-top:1px solid var(--border);margin-top:20px}
+footer .f-name{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;margin-bottom:8px;color:var(--text)}
+footer .f-links{display:flex;justify-content:center;gap:20px;margin-bottom:14px;flex-wrap:wrap}
+footer .f-links a{color:var(--muted);text-decoration:none;font-size:0.82rem;transition:color 0.2s}
+footer .f-links a:hover{color:var(--accent)}
+footer .f-copy{font-size:0.7rem;color:rgba(140,132,120,0.5)}
+@media(max-width:600px){
+  .creds{grid-template-columns:repeat(2,1fr)}
+  .what-grid{grid-template-columns:1fr}
+  .kit-form-area form{flex-direction:column}
+  .kit-form-area button{width:100%}
+  .nav-links{gap:12px}
+  .nav-links a:not(.btn-nav){display:none}
+  .resource-box{padding:32px 20px}
+  .hero{padding:50px 0 40px}
+}
+</style>
+</head>
+<body>
+<div class="container">
+<nav>
+  <a href="/" class="nav-name">nalam.ca</a>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#download" class="btn-nav">Free Guide</a>
+  </div>
+</nav>
+</div>
+<section class="hero">
+<div class="container">
+  <div class="avatar">NA</div>
+  <h1>Dr. Nazmul Alam</h1>
+  <div class="subtitle">LC-MS Expert | Green Analytical Chemistry</div>
+  <p>I bridge the gap between academic chemistry and industrial reality. 14 years across government, cosmeceuticals, and drug discovery. Practical insights, real data, and honest advice for chemists at every career stage.</p>
+  <div class="socials">
+    <a href="https://linkedin.com/in/nazmul-alam" target="_blank" title="LinkedIn"><svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+    <a href="https://youtube.com/@nazmulalamphd" target="_blank" title="YouTube"><svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+    <a href="https://instagram.com/YOUR_INSTAGRAM" target="_blank" title="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+    <a href="https://facebook.com/YOUR_FACEBOOK" target="_blank" title="Facebook"><svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+    <a href="mailto:nazmul@nalam.ca" title="Email"><svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg></a>
+    <a href="https://orcid.org/0000-0002-6442-3569" target="_blank" title="ORCID"><svg viewBox="0 0 24 24"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 01-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.025-5.325 5.025h-3.919V7.416zm1.444 1.303v7.444h2.297c3.272 0 4.047-2.406 4.047-3.722 0-1.894-1.284-3.722-3.928-3.722h-2.416z"/></svg></a>
+  </div>
+</div>
+</section>
+<div class="container">
+<div class="creds">
+  <div class="cred-item"><div class="num">17</div><div class="lbl">Publications</div></div>
+  <div class="cred-item"><div class="num">1,400+</div><div class="lbl">Citations</div></div>
+  <div class="cred-item"><div class="num">14</div><div class="lbl">Years Experience</div></div>
+  <div class="cred-item"><div class="num">15</div><div class="lbl">h-index</div></div>
+</div>
+</div>
+<section class="expertise" id="about">
+<div class="container">
+  <div class="pills">
+    <span class="pill pill-accent">LC-MS/MS</span>
+    <span class="pill pill-accent">Green Analytical Chemistry</span>
+    <span class="pill">SPME</span>
+    <span class="pill">Mass Spectrometry</span>
+    <span class="pill">NADES Research</span>
+    <span class="pill">Method Validation (ICH)</span>
+    <span class="pill">Raw Material Qualification</span>
+    <span class="pill">FDA / Health Canada / cGMP</span>
+    <span class="pill">Project Management</span>
+    <span class="pill">Cosmeceutical Analysis</span>
+  </div>
+</div>
+</section>
+<div class="container"><hr class="divider"></div>
+<section class="what" id="work">
+<div class="container">
+  <div class="section-tag">What I Share</div>
+  <h2>Practical chemistry. Not theory.</h2>
+  <div class="what-grid">
+    <div class="what-card">
+      <div class="icon">&#128300;</div>
+      <h3>LC-MS/MS in Industry</h3>
+      <p>Method development and validation for pharmaceutical, cosmeceutical, and food applications. Real-world troubleshooting from years at the bench.</p>
+    </div>
+    <div class="what-card">
+      <div class="icon">&#9878;</div>
+      <h3>Green Analytical Methods</h3>
+      <p>SPME fundamentals, NADES applications, green metrics (AGREE, GAPI, E-factor), and sustainable sample preparation from active research.</p>
+    </div>
+    <div class="what-card">
+      <div class="icon">&#127891;</div>
+      <h3>Academia to Industry Bridge</h3>
+      <p>Career strategies, resume transformation, interview preparation, and honest insights for PhDs and postdocs entering industry.</p>
+    </div>
+    <div class="what-card">
+      <div class="icon">&#127807;</div>
+      <h3>Sustainable Chemistry in ASEAN</h3>
+      <p>Green chemistry adoption in Malaysia and Southeast Asia. Palm oil analytics, talent gaps, and regional industry opportunities.</p>
+    </div>
+  </div>
+</div>
+</section>
+<div class="container"><hr class="divider"></div>
+<section class="resource" id="download">
+<div class="container">
+  <div class="resource-box">
+    <div class="resource-badge">Free Download</div>
+    <h2>The Chemistry Career Guide</h2>
+    <p>40 pages of salary data, daily work comparisons across pharma, food, cosmetics, and environmental sectors, plus the complete PhD-to-industry roadmap.</p>
+    <div class="resource-features">
+      <span class="rf">&#128200; Job Market Data</span>
+      <span class="rf">&#128176; Salary Benchmarks (5 Countries)</span>
+      <span class="rf">&#9881; Day in the Life (4 Sectors)</span>
+      <span class="rf">&#127891; PhD Transition Roadmap</span>
+      <span class="rf">&#128269; Job Search Strategy</span>
+      <span class="rf">&#128640; Career Progression</span>
+    </div>
+    <div class="kit-form-area">
+      <form action="https://app.kit.com/forms/YOUR_FORM_ID/subscriptions" method="post" target="_blank">
+        <input type="email" name="email_address" placeholder="your@email.com" required>
+        <button type="submit">Get the Free Guide</button>
+      </form>
+      <p class="form-note">No spam. Unsubscribe anytime. I respect your inbox.</p>
+    </div>
+  </div>
+</div>
+</section>
+<div class="container"><hr class="divider"></div>
+<section class="timeline">
+<div class="container">
+  <div class="section-tag">Background</div>
+  <h2>Where I have worked</h2>
+  <div class="tl-item">
+    <div class="tl-dot"></div>
+    <div class="tl-content">
+      <h3>NADES Research Collaborator</h3>
+      <div class="org">Sunway University &amp; USM, Malaysia | Current</div>
+      <p>Natural Deep Eutectic Solvents for green sample preparation. 2 papers in Journal of Molecular Liquids.</p>
+    </div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-dot warm"></div>
+    <div class="tl-content">
+      <h3>Scientist</h3>
+      <div class="org">Dalriada Drug Discovery, Canada</div>
+      <p>Drug discovery research in a collaborative scientific environment.</p>
+    </div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-dot gold"></div>
+    <div class="tl-content">
+      <h3>LC-MS/MS Scientist | Project Manager</h3>
+      <div class="org">Deciem (The Ordinary), Canada</div>
+      <p>Developed and validated LC-MS/MS methods for cosmeceutical products. Raw material qualification. Implemented Wrike for workflow optimization. Wrike Elite 100 Award (2024).</p>
+    </div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-dot sage"></div>
+    <div class="tl-content">
+      <h3>Postdoctoral Researcher</h3>
+      <div class="org">Ontario Ministry of Environment, Canada</div>
+      <p>Environmental analytical chemistry for government regulatory compliance.</p>
+    </div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-dot"></div>
+    <div class="tl-content">
+      <h3>PhD Analytical Chemistry</h3>
+      <div class="org">University of Waterloo, Canada</div>
+      <p>SPME kinetics and calibration-free methods under Prof. Janusz Pawliszyn (inventor of SPME). 6 papers in Analytical Chemistry journal. Outstanding Graduate Teaching Assistantship Award (2013).</p>
+    </div>
+  </div>
+</div>
+</section>
+<footer>
+<div class="container">
+  <div class="f-name">Dr. Nazmul Alam</div>
+  <div class="f-links">
+    <a href="https://linkedin.com/in/nazmul-alam" target="_blank">LinkedIn</a>
+    <a href="https://youtube.com/@nazmulalamphd" target="_blank">YouTube</a>
+    <a href="https://instagram.com/YOUR_INSTAGRAM" target="_blank">Instagram</a>
+    <a href="https://facebook.com/YOUR_FACEBOOK" target="_blank">Facebook</a>
+    <a href="mailto:nazmul@nalam.ca">nazmul@nalam.ca</a>
+    <a href="https://orcid.org/0000-0002-6442-3569" target="_blank">ORCID</a>
+  </div>
+  <div class="f-copy">&copy; 2026 nalam.ca | LC-MS Expert | Green Analytical Chemistry</div>
+</div>
+</footer>
+</body>
+</html>
