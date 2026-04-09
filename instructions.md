@@ -1,3 +1,26 @@
+## to do
+
+WITHIN 30 DAYS (build the email list):
+Your LinkedIn post reaches people once. An email list reaches them repeatedly. Create a simple landing page (Gumroad, ConvertKit, or Carrd) offering the career guide as a free PDF download in exchange for an email address. Update your LinkedIn post's first comment with this link. Every future career post should drive to this page.
+The email list is the asset. LinkedIn owns your followers. You own your email list.
+
+THE REALISTIC BUSINESS MODEL (based on what you know right now):
+After those 10 free calls, you will know the answer to this question: what specific problem are people willing to pay to solve?
+My prediction based on the comments you're receiving: the highest-willingness-to-pay problem is the PhD/postdoc-to-industry transition. Specifically, resume transformation and interview preparation. People in this position are desperate, time-pressured, and the stakes are high (their entire career trajectory).
+Here is a tiered product ladder built from one piece of expertise:
+Tier 1 (low ticket, C$29-49): A self-serve "PhD-to-Industry Resume Kit." Templates, before/after examples, the translation table from your guide expanded into a workbook, a video walkthrough. You build it once. It sells repeatedly. This is your volume product.
+Tier 2 (mid ticket, C$149-249): A 90-minute "Resume and Interview Intensive." You review their resume live, rewrite the top 3 bullet points together, do a mock behavioral interview with STAR feedback. One session per client. This is your validated product: if people pay for this, the business is real.
+Tier 3 (high ticket, C$499-799): A 4-week "Industry Transition Program." Weekly 1-on-1 calls covering resume, job search strategy, interview prep, and salary negotiation. Small cohort model (5-8 people at a time). This is your premium product once you have testimonials from Tier 2.
+Do not build all three at once. Start with Tier 2. It requires zero upfront product creation. You schedule a Zoom call, deliver value, and collect payment through Stripe or PayPal. If 5 out of your 10 free calls convert to paid Tier 2 clients at C$199 each, you have C$995 and five testimonials within 60 days.
+
+WHAT NOT TO DO RIGHT NOW:
+Do not build a course. Courses take months to create and most never sell. Validate with live calls first.
+Do not build a community or membership. Communities are expensive to maintain and slow to monetize. You don't have the audience size yet.
+Do not launch a website with full branding, multiple service pages, and a blog. A single landing page with one offer is enough.
+Do not announce a business publicly on LinkedIn. Your academic career protection rule still applies. Frame everything as "I'm helping a few people with their career transitions" rather than "I'm launching a coaching business." The positioning stays educational, not commercial.
+
+## future steps
+
 Smart question. Here is how it works.
 
 The form collects emails into one Kit subscriber list. The list is permanent. 
