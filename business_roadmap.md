@@ -339,4 +339,25 @@ Provide specific advice. Reference resume translation table. Offer Calendly link
 
 ---
 
+# Email to send before the meeting
+
+Subject: Before our call: a quick request
+
+Hi,
+
+Looking forward to our call on [DATE/TIME].
+
+To make the most of our 30 minutes, please send me two things before we meet:
+
+1. Your current resume or CV (PDF or Word)
+2. A few sentences about your situation: where you are now, what roles or sectors you are targeting, and your biggest blocker
+
+No need to polish anything. I want to see the real version so I give you useful feedback.
+
+Talk soon,
+
+Dr. Nazmul Alam
+nazmul@nalam.ca
+nalam.ca
+
 *This document is the single source of truth for the nalam.ca business system. Update it as decisions are made and milestones are reached.*
