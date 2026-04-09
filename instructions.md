@@ -19,6 +19,31 @@ Do not build a community or membership. Communities are expensive to maintain an
 Do not launch a website with full branding, multiple service pages, and a blog. A single landing page with one offer is enough.
 Do not announce a business publicly on LinkedIn. Your academic career protection rule still applies. Frame everything as "I'm helping a few people with their career transitions" rather than "I'm launching a coaching business." The positioning stays educational, not commercial.
 
+# Prepare for the Call
+
+PART 1: PREPARE FOR THE 10 CALLS
+Before anyone books a call, you need a simple system.
+Create a Google Sheet with these columns: Name, Degree Level, Country, Current Situation (their one-sentence DM), Date of Call, Top 3 Pain Points (fill after call), Willingness to Pay (your gut read: high/medium/low), Follow-up Action.
+This sheet becomes your entire business intelligence for the next 60 days.
+For the call itself, use this 30-minute structure:
+Minutes 1-5: Ask them to describe their current situation. Where are they? What have they tried? What is the specific blocker?
+Minutes 5-15: Review their resume or LinkedIn profile (ask them to send it before the call). Give 3 specific, actionable fixes on the spot. This is where you deliver real value.
+Minutes 15-25: Walk them through their job search strategy. Identify which of the 5 channels from your guide they are missing. Give them a 2-week action plan with concrete steps.
+Minutes 25-30: Ask two closing questions. First: "What would have made this conversation even more useful?" Second: "If I offered a deeper 4-week program covering resume rewrite, interview prep, and job search strategy, is this something you'd invest in?"
+Do not pitch. Do not name a price. Listen to their reaction. Write it down immediately after the call.
+Use Calendly (free tier) for scheduling. Set up a 30-minute event type. Send each person your Calendly link when they DM you. This avoids the back-and-forth of "when are you free?"
+Use Zoom or Google Meet for the call. Record every call (with permission). These recordings become testimonial material and help you build your program content later.
+
+## After the call
+
+PART 3: THE SEQUENCE AFTER THE 10 CALLS
+Week 1-2: Complete all 10 calls. Fill your tracking spreadsheet.
+Week 3: Review your data. Look for the pattern. Which pain point came up most? Which segment (BSc, MSc, PhD, postdoc) showed the highest urgency? How many people responded positively to the "would you invest" question?
+Week 4: Build your first paid offer based on the data. If resume help dominated the calls, build the Resume Kit (Tier 1, C$29-49). If people wanted ongoing support, offer the 90-minute Intensive (Tier 2, C$149-249). Sell it to the 10 people you already spoke with first. They are your warmest leads.
+Use Stripe for payment processing (free to set up, 2.9% + C$0.30 per transaction). Add a payment button to a second Carrd page or use Gumroad for digital product delivery.
+Week 5-6: Collect 2-3 testimonials from paying clients. Add them to your landing page. Write a LinkedIn post sharing one anonymized success story. Drive traffic to the landing page.
+This is the entire system. One landing page. One email list. One offer. Built on real conversations with real people.
+
 ## future steps
 
 Smart question. Here is how it works.
@@ -69,6 +94,62 @@ The form URL, the landing page, and the subscriber list never change.
 Your nalam.ca page stays the same. Your Kit form stays the same. Only the automated welcome email evolves as your resource library grows.
 
 Now go create the Kit form and paste the action URL into the HTML. You are one step away from a live landing page.
+
+# Areas to talk about
+
+You're right to ask this before building anything. Let me research actual demand signals for each asset.Here is what the research tells me, ranked by demand evidence.
+
+---
+
+**HIGHEST DEMAND: Asset 3 (LC-MS/MS Method Development Training)**
+
+The evidence is strong. CfPIE's LC-MS/MS Practical Method Development course has a waitlist for 2026 dates and offers on-site delivery for groups of 10+. Analytical Training Solutions charges US$975 per single LC course, US$2,000 for all LC courses, and has multi-user site licenses. Phenomenex charges £445/€510 per person for one-day chromatography seminars. The University of Tartu's free LC-MS Method Validation MOOC attracted 999 participants from 95 countries in its latest edition, proving massive global demand even for free content.
+
+The price points tell you something critical: companies pay US$500-2,000 per seat for LC-MS training. This is not consumer pricing. This is B2B training budget money. The buyer is often a lab manager or training coordinator, not the individual chemist. They have dedicated budgets for professional development.
+
+Your specific edge: You did LC-MS/MS method development at Deciem for cosmeceutical products. Most existing courses are taught by pharma or academic instructors. Nobody teaches LC-MS/MS method development from the cosmeceutical and personal care perspective. The intersection of LC-MS/MS and cosmetic/personal care product testing is underserved and growing.
+
+---
+
+**SECOND HIGHEST DEMAND: Asset 4 (Raw Material Qualification Consulting)**
+
+The global cosmetic raw material market reached US$39.8 billion in 2026 and is projected to grow to US$65.2 billion by 2035 at 5.65% CAGR. New EU Packaging and Packaging Waste Regulation, EPR laws, and fragrance allergen disclosure rules will require cosmetics brands to revamp product development and labeling. Brands must prepare for proof-based sustainability, not greenwashing, including lifecycle accountability and material traceability.
+
+Regulatory complexity is intensifying, with the EU tightening cosmetic safety regulations while China and ASEAN regions enforce stricter testing and labeling. The blockchain-traced ethical cosmetics sourcing market is set to grow from US$0.9 billion in 2026 to US$4.2 billion by 2036, driven by increasing regulatory pressure for transparency and the growing need for verifiable ethical sourcing.
+
+The pain is real and growing. More formulators are demanding country of origin information for raw materials, driven by both regulatory requirements and brand values. Small brands sourcing from Asia face genuine knowledge gaps around CoA verification, regulatory compliance, and supplier legitimacy.
+
+Your edge: Deciem experience + Malaysia location (same timezone as Asian suppliers) + green chemistry knowledge. Consulting firms like Izba Consulting already serve this space, but at premium prices inaccessible to small and emerging brands.
+
+---
+
+**MODERATE DEMAND: Asset 2 (Green Analytical Chemistry Reference Guide)**
+
+There is high demand in both industry and academia for graduates with analytical chemistry and measurement science skills. Class Central lists 200+ analytical chemistry courses online. But here is the problem: green analytical chemistry specifically has a much smaller audience than general analytical chemistry. The demand exists in academia and regulatory-forward companies, but the paying market is narrow. Most green chemistry content is consumed free through journals and conferences.
+
+This asset works best as a lead magnet and authority builder, not a primary revenue product. It positions you as the expert, which feeds Assets 3 and 4.
+
+---
+
+**LOWEST IMMEDIATE DEMAND: Asset 1 (LinkedIn Content Series)**
+
+This is not a product. It is the engine powering everything else. Zero revenue directly, but essential infrastructure. Not a question of demand, but of discipline.
+
+---
+
+**MY REVISED RECOMMENDATION:**
+
+Start with Asset 3 (LC-MS/MS course) as your primary product. The demand is proven. The price points are high. The buyer has a budget. Your Deciem experience gives you a unique angle no competitor occupies.
+
+But build it smartly:
+
+Month 1-3: Post LC-MS/MS tips on LinkedIn (Asset 1 content). Each post tests a subtopic. Track which ones get the most engagement and saves. Use your Kit landing page to capture emails from a free "LC-MS/MS Method Development Cheat Sheet" (one-page PDF with your decision framework for column selection, mobile phase, and gradient optimization). This is Asset 2 in miniature, focused on LC-MS/MS.
+
+Month 3-5: Build the course module by module. Start with 3-5 video modules (screen recordings over slides and real chromatogram examples). Price at US$149-249 for individual chemists, US$499-999 for team licenses. Sell through Gumroad. Launch to your email list.
+
+Month 1 onward (parallel): Take raw material qualification conversations as they come (Asset 4). Do not actively market this yet. When opportunities appear through your LinkedIn content or network, pursue them at consulting rates ($150-250/hour). This validates the market without requiring upfront investment.
+
+The LC-MS/MS course has the clearest path from where you are today to revenue. Proven demand, high willingness to pay, and a differentiated angle you already own. Does this direction feel right to you?
 
 ## Brand
 
