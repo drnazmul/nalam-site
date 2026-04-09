@@ -134,3 +134,8 @@ Summary of your deploy checklist:
 8. Test the full flow: visit nalam.ca, enter email, receive PDF
 
 Go create the Kit form first. Everything else follows from it.
+
+## Tips
+
+This comment matters for a different reason. Parisa is telling you the market for career transition guidance extends beyond chemistry. File this. Do not act on it now. But when your chemistry guide has 500+ downloads and your email list is growing, a "Physical Sciences Career Guide" covering physics, materials science, and chemistry together becomes a natural second product with a larger addressable audience.
+
